@@ -6,12 +6,21 @@ public class Pedido {
     private Double total = 0.0;
     private ArrayList<Produto> produtos = new ArrayList<>();
 
-    public void adicionarProdutos(){
+
+    public Pedido(){
 
     }
 
-    public void calcularTotal(Integer valor){
-        total += valor;
+    public void adicionarProdutos(Produto produto){
+        produtos.add(produto);
+
     }
+
+
+
+
+//    public void calcularTotal(){
+//        total += valor;
+//    }
 
 }

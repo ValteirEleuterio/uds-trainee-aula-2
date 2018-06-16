@@ -22,12 +22,24 @@ public class Main {
 //        System.out.println("Metros percorridos pelo macaco: " + macaco.metrosPercorridos+" metros" +
 //                                            "\nBananas comidas: "+macaco.bananasComidas+" bananas");
 
-        Pato pato1 = new PatoDeCabecaVermelha();
-        Pato pato2 = new PatoCibernetico();
+//        Pato pato1 = new PatoDeCabecaVermelha();
+//        Pato pato2 = new PatoCibernetico();
+//
+//
+//        pato1.voar();
+//        pato2.voar();
 
 
-        pato1.voar();
-        pato2.voar();
+
+
+
+        Pedido pedido1 = new Pedido();
+        Produto tv = new Produto("tv 42", 1500.00);
+        pedido1.adicionarProdutos(tv);
+
+
+
+
 
 
     }
