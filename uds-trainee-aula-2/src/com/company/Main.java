@@ -1,28 +1,28 @@
 package com.company;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) {
-        ArrayList<String> dadosPessoais = new ArrayList();
+    public static void main(String[] args){
+//        Pessoa pessoa = new Pessoa("Valteir","999-999","Rua kiri","333","casa","bandeiras","Maringá","PR","(44)9955-6253");
+//        System.out.println(pessoa.obterInformacoes());
 
-        dadosPessoais.add("Valteir");
-        dadosPessoais.add("999-999");
-        dadosPessoais.add("Rua das Palmeiras");
-        dadosPessoais.add("325");
-        dadosPessoais.add("Casa");
-        dadosPessoais.add("Vila Matinhos");
-        dadosPessoais.add("Maringá");
-        dadosPessoais.add("Paraná");
-        dadosPessoais.add("(44)99812-5460");
+        Macaco macaco = new Macaco("Macaco Prego");
 
-        dadosPessoais.set(0, "Valteir Eleuterio Alves");
-        dadosPessoais.remove(8);
+        macaco.andar();
+        macaco.andar();
+        macaco.andar();
 
-        dadosPessoais.stream().forEach((item)->{
-            System.out.println(item);
-        });
+        macaco.comerBananas();
+
+        System.out.println(macaco.metrosPercorridos);
+        System.out.println(((Macaco) macaco).bananasComidas);
+
+
+
+
     }
 }
 
