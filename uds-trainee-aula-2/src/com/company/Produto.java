@@ -2,7 +2,7 @@ package com.company;
 
 public class Produto {
     private String nome = null;
-    private Double valor = null;
+    public Double valor = null;
 
     public Produto(String nome, Double valor){
         this.nome = nome;
