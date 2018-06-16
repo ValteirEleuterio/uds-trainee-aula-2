@@ -13,14 +13,12 @@ public class Pedido {
 
     public void adicionarProdutos(Produto produto){
         produtos.add(produto);
-
+        calcularTotal(produto.);
     }
+    
 
-
-
-
-//    public void calcularTotal(){
-//        total += valor;
-//    }
+    public void calcularTotal(Double p){
+        total += p;
+    }
 
 }
