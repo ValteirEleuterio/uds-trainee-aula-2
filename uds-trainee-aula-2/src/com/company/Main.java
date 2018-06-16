@@ -9,18 +9,27 @@ public class Main {
 //        Pessoa pessoa = new Pessoa("Valteir","999-999","Rua kiri","333","casa","bandeiras","Maringá","PR","(44)9955-6253");
 //        System.out.println(pessoa.obterInformacoes());
 
-        Macaco macaco = new Macaco("Macaco Prego");
+//        Macaco macaco = new Macaco("Macaco Prego");
+//
+//        macaco.andar();
+//        macaco.andar();
+//        macaco.andar();
+//
+//        macaco.comerBananas();
+//        macaco.comerBananas();
+//        macaco.comerBananas();
+//
+//        System.out.println("Metros percorridos pelo macaco: " + macaco.metrosPercorridos+" metros" +
+//                                            "\nBananas comidas: "+macaco.bananasComidas+" bananas");
 
-        macaco.andar();
-        macaco.andar();
-        macaco.andar();
+        Pato pato1 = new PatoDeCabecaVermelha();
+        Pato pato2 = new PatoCibernetico();
 
-        macaco.comerBananas();
-        macaco.comerBananas();
-        macaco.comerBananas();
 
-        System.out.println("Metros percorridos pelo macaco: " + macaco.metrosPercorridos+" metros");
-        System.out.println("Bananas comidas: " + macaco.bananasComidas+" bananas");
+        pato1.voar();
+        pato2.voar();
+
+
     }
 }
 
