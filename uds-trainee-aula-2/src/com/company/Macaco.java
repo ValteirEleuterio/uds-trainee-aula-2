@@ -17,6 +17,4 @@ public class Macaco extends Animal{
     public void andar() {
         metrosPercorridos += 5;
     }
-
-
 }

@@ -16,13 +16,11 @@ public class Main {
         macaco.andar();
 
         macaco.comerBananas();
+        macaco.comerBananas();
+        macaco.comerBananas();
 
-        System.out.println(macaco.metrosPercorridos);
-        System.out.println(((Macaco) macaco).bananasComidas);
-
-
-
-
+        System.out.println("Metros percorridos pelo macaco: " + macaco.metrosPercorridos+" metros");
+        System.out.println("Bananas comidas: " + macaco.bananasComidas+" bananas");
     }
 }
 
